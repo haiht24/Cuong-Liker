@@ -3,8 +3,8 @@
     <div class="right_col" role="main">
         <div class="">
             <div class="page-title">
-                <div class="col-xs-12">
-                    <h3>Welcome Anonymous! Just follow steps below to Login to EasyLiker.</h3>
+                <div class="title_left">
+                    <h3>How To Get Access Token</h3>
                 </div>
 
                 {{--<div class="title_right">--}}
@@ -24,6 +24,7 @@
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="x_panel">
                         <div class="x_title">
+                            <h2>Get Access Token</h2>
                             <ul class="nav navbar-right panel_toolbox">
                                 <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                                 </li>
@@ -42,19 +43,10 @@
                             <div class="clearfix"></div>
                         </div>
                         <div class="x_content">
-                            <h3>Allow Permission To The App, And Copy Paste The Url Below</h3>
-                            <a target="_blank" href="{{ url('get-token') }}" class="btn btn-primary">Get Token Here</a>
-                            <h3>DON'T FORGET TO ALLOW <a target="_blank" href="Facebook Followers [Settings]" class="btn btn-primary">Facebook Followers [Settings]</a> As Well</h3>
-                            <hr>
-                            <div class="form-group">
-                                <div class="col-sm-6 col-xs-12">
-                                    <input type="text" id="first-name" placeholder="Paste your token to login system" class="form-control col-md-7 col-xs-12">
-                                </div>
-                                <div class="col-sm-6 col-xs-12">
-                                    <a href="{{ url('get-token') }}" class="btn btn-danger">Login</a>
-                                </div>
-
-                            </div>
+                            <h3>Step 1 (Only For First Time Users)</h3>
+                            <a target="_blank" href="http://goo.gl/NYI6j1" class="btn btn-primary">First Click Here To Allow Permissions!</a>
+                            <h3>Step 2 (Get Token)</h3>
+                            <a target="_blank" href="http://goo.gl/NkKRQ6" class="btn btn-primary">Click here and copy token</a>
                         </div>
                     </div>
                 </div>

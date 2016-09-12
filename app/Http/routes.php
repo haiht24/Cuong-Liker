@@ -17,3 +17,4 @@ Route::get('/', function () {
 Route::get('/', 'IndexController@index');
 Route::get('/about-us', 'IndexController@aboutUs');
 Route::get('/how-to-use', 'IndexController@howToUse');
+Route::get('/get-token', 'IndexController@getToken');

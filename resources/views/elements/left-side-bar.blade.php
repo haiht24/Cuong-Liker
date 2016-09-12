@@ -26,6 +26,7 @@
                 <h3>General</h3>
                 <ul class="nav side-menu">
                     <li><a href="{{ url('/') }}"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="{{ url('/get-token') }}"><i class="fa fa-key"></i> Get Access Token</a></li>
                     <li><a href="{{ url('how-to-use') }}"><i class="fa fa-question-circle"></i> How to use</a></li>
                     <li><a href="{{ url('about-us') }}"><i class="fa fa-info"></i> About Us</a></li>
 

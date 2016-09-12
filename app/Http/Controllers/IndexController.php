@@ -22,4 +22,9 @@ class IndexController extends Controller
     {
         return view('how-to-use');
     }
+
+    public function getToken()
+    {
+        return view('get-token');
+    }
 }
